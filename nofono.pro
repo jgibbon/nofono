@@ -33,8 +33,9 @@ OTHER_FILES += qml/nofono.qml \
 
 INSTALLS += translations
 
-TRANSLATIONS = translations/harbour-nofono-de.ts #\
-#               translations/harbour-nofono-sv.ts
+TRANSLATIONS = translations/harbour-nofono-de.ts \
+               translations/harbour-nofono-nl.ts \
+               translations/harbour-nofono-sv.ts
 
 # only include these files for translation:
 lupdate_only {
