@@ -24,12 +24,12 @@
         <translation>startet &apos;systemctl restart ofono&apos;, damit Du es nicht musst.</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="84"/>
+        <location filename="../qml/pages/About.qml" line="88"/>
         <source>Large portions of the code taken from Sailcron – thanks ade!</source>
         <translation>Große Teile des Codes übernommen von Sailcron – Danke ade!</translation>
     </message>
     <message>
-        <location filename="../qml/pages/About.qml" line="61"/>
+        <location filename="../qml/pages/About.qml" line="62"/>
         <source>Author</source>
         <translation>Autor</translation>
     </message>
@@ -37,32 +37,32 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="19"/>
+        <location filename="../qml/pages/MainPage.qml" line="17"/>
         <source>About</source>
         <translation>Über</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="31"/>
+        <location filename="../qml/pages/MainPage.qml" line="29"/>
         <source>Nofono</source>
         <translation>Nofono</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="32"/>
+        <location filename="../qml/pages/MainPage.qml" line="30"/>
         <source>restarts ofono service</source>
         <translation>startet den ofono dienst neu</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="56"/>
+        <location filename="../qml/pages/MainPage.qml" line="60"/>
         <source>restart telephony service now</source>
         <translation>Telefondienst jetzt neustarten</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="73"/>
+        <location filename="../qml/pages/MainPage.qml" line="77"/>
         <source>Run on app start</source>
         <translation>Bei App-Start ausführen</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="82"/>
+        <location filename="../qml/pages/MainPage.qml" line="86"/>
         <source>Exit after autostart</source>
         <translation>Nach Autostart beenden</translation>
     </message>

@@ -1,2 +1,7 @@
+* Tue Dec 11 2018 jgibbon 0.1-2
+ - Cover: remove rotation
+ - Main Page/About: bigger buttons, padding
+ - Translations: Add nl (thanks d9h20f), sv (thanks eson)
+
 * Mon Jan 15 2018 jgibbon 0.1-1
  - initial release

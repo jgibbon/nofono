@@ -6,15 +6,11 @@ Page {
     allowedOrientations: Orientation.Portrait | Orientation.Landscape
                          | Orientation.LandscapeInverted
 
-
-    // To enable PullDownMenu, place our content in a SilicaFlickable
     SilicaFlickable {
         anchors.fill: parent
         contentHeight: mainCol.height
         id: listPass
-        // PullDownMenu and PushUpMenu must be declared in SilicaFlickable, SilicaListView or SilicaGridView
         PullDownMenu {
-
             MenuItem {
                 text: qsTr("About")
                 onClicked: pageStack.push("About.qml")
@@ -52,14 +48,20 @@ Page {
                     Qt.quit()
                 }
             }
+            Rectangle {
+                width: parent.width
+                height: Theme.paddingLarge * 2
+                color: 'transparent'
+            }
             Button {
+                x: Theme.horizontalPageMargin
                 text: qsTr("restart telephony service now")
                 onClicked: {
                     remorse.cancel()
                     closeInterval.stop()
                     run()
                 }
-                preferredWidth: Theme.buttonWidthLarge
+                preferredWidth: parent.width - Theme.horizontalPageMargin * 2 //Theme.buttonWidthLarge
             }
             Label {
                 id: nofonoOut
@@ -93,7 +95,6 @@ Page {
                 console.log("autostart");
                 remorse.execute("nofono", function() { autorunInterval.start() }, 2000 )
             }
-
         }
 
     }

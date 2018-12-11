@@ -51,7 +51,8 @@ Page {
             Label {
                 text: qsTr("runs 'systemctl restart ofono' so you don't have to.")
                 font.pixelSize: Theme.fontSizeSmall
-                width: parent.width
+                width: parent.width - Theme.horizontalPageMargin*2
+                x: Theme.horizontalPageMargin
                 horizontalAlignment: Text.Center
                 textFormat: Text.RichText
                 wrapMode: Text.Wrap
@@ -72,24 +73,30 @@ Page {
                 text: "John Gibbon"
                 anchors.horizontalCenter: parent.horizontalCenter
                 wrapMode: Text.Wrap
-                width: parent.width
+                width: parent.width - Theme.horizontalPageMargin*2
+                x: Theme.horizontalPageMargin
 
             }
 
             Button {
                 text: "https://github.com/jgibbon/nofono/"
                 onClicked: Qt.openUrlExternally(text)
+                width: parent.width - Theme.horizontalPageMargin*2
+                x: Theme.horizontalPageMargin
             }
             Label {
                 text: qsTr("Large portions of the code taken from Sailcron – thanks ade!")
                 anchors.horizontalCenter: parent.horizontalCenter
                 wrapMode: Text.Wrap
-                width: parent.width
+                width: parent.width - Theme.horizontalPageMargin*2
+                x: Theme.horizontalPageMargin
 
             }
             Button {
                 text: "https://github.com/a-dekker/sailcron/"
                 onClicked: Qt.openUrlExternally(text)
+                width: parent.width - Theme.horizontalPageMargin*2
+                x: Theme.horizontalPageMargin
             }
 
         }
