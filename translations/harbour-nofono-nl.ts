@@ -37,32 +37,32 @@
 <context>
     <name>MainPage</name>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="17"/>
+        <location filename="../qml/pages/MainPage.qml" line="15"/>
         <source>About</source>
         <translation>Over</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="29"/>
+        <location filename="../qml/pages/MainPage.qml" line="27"/>
         <source>Nofono</source>
         <translation>Nofono</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="30"/>
+        <location filename="../qml/pages/MainPage.qml" line="28"/>
         <source>restarts ofono service</source>
         <translation>herstart de ofono-dienst</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="60"/>
+        <location filename="../qml/pages/MainPage.qml" line="58"/>
         <source>restart telephony service now</source>
         <translation>telefoniedienst nu herstarten</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="77"/>
+        <location filename="../qml/pages/MainPage.qml" line="75"/>
         <source>Run on app start</source>
         <translation>Uitvoeren bij starten van app</translation>
     </message>
     <message>
-        <location filename="../qml/pages/MainPage.qml" line="86"/>
+        <location filename="../qml/pages/MainPage.qml" line="84"/>
         <source>Exit after autostart</source>
         <translation>Afsluiten na automatische start</translation>
     </message>
