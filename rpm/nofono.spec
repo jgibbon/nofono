@@ -14,7 +14,7 @@ Name:       harbour-nofono
 %{?qtc_builddir:%define _builddir %qtc_builddir}
 Summary:    restart nofono
 Version:    0.1
-Release:    1
+Release:    3
 Group:      Qt/Qt
 License:    GPL2
 URL:        https://github.com/jgibbon/nofono
