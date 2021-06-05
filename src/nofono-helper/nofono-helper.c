@@ -10,7 +10,7 @@ int main(int argc, char **argv) {
         return 1;
     }
     setuid(0);
-    sprintf(cmdline, "killall -s9 ofonod");
+    sprintf(cmdline, "killall -9 ofonod");
 
     system(cmdline);
     return 0;
